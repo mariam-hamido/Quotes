@@ -1,0 +1,55 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.container{
+    width: 90%;
+    margin: auto;
+}
+h1{
+    color: teal;
+    font-weight: bold;
+    text-align: center;
+    font-size: 64px;
+    background-color: bisque;
+    padding: 30px 0;
+    border-bottom: solid teal 3px;
+    margin-bottom: 20px;
+}
+h3{
+    color: #B67352;
+    font-size: 32px;
+    text-align: center;
+}
+button .btn{
+    margin: auto;
+    text-align: center;
+}
+.control {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+  }
+
+button{
+    background-color: teal;
+    color:bisque;
+    padding: 20px;
+    border-radius: 10px;
+    font-weight: bold;
+    border-color: transparent;
+    transition: all 1s;
+}  
+button:hover{
+    background-color: bisque;
+    color:teal;
+}  
+
+#quote{
+    margin-top: 30px;
+    color: teal;
+    font-size: 32px;
+    font-weight: bold;
+    text-align: center;
+}
